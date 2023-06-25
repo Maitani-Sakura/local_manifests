@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="Maitani-Sakura/android_device_huawei_figo" path="device/huawei/figo" remote="github" revision="lineage-18.1" />
+  <project name="Maitani-Sakura/android_device_huawei_hi6250-common" path="device/huawei/hi6250-common" remote="github" revision="lineage-18.1" />
+  <project name="Maitani-Sakura/android_kernel_huawei_hi6250" path="kernel/huawei/hi6250" remote="github" revision="lineage-18.1" />
+  <project name="Maitani-Sakura/android_vendor_huawei_figo" path="vendor/huawei/figo" remote="github" revision="lineage-18.1" />
+  <project name="Maitani-Sakura/proprietary_vendor_huawei_hi6250-common" path="vendor/huawei/hi6250-common" remote="github" revision="lineage-16.0" />
+  <project name="Maitani-Sakura/android_hardware_huawei" path="hardware/huawei" remote="github" revision="lineage-19.1" />
+</manifest>
