@@ -8,19 +8,16 @@
     <remote name="gl" fetch="https://gitlab.com" revision="pixelos14" />
 
     <!-- Device -->
-    <project path="device/xiaomi/renoir" name="RobertGarciaa/android_device_xiaomi_renoir" remote="gh" revision="pixelos14" />
-    <project path="device/xiaomi/sm8350-common" name="RobertGarciaa/device_xiaomi_sm8350-common" remote="gh" revision="pixelos14" />
+    <project path="device/xiaomi/renoir" name="Maitani-Sakura/android_device_xiaomi_renoir_old" remote="gh" revision="pixelos14" />
+    <project path="device/xiaomi/sm8350-common" name="Maitani-Sakura/device_xiaomi_sm8350-common_old" remote="gh" revision="pixelos14" />
     <project path="hardware/xiaomi" name="RobertGarciaa/hardware_xiaomi" remote="gh" revision="pixelos14" />
 
     <!-- Kernel -->
     <project path="kernel/xiaomi/sm8350" name="RobertGarciaa/android_kernel_xiaomi_sm8350" remote="gh" revision="pixelos14" />
     
     <!-- Vendor -->
-    <project path="vendor/xiaomi/renoir" name="RobertGarciaa/vendor_xiaomi_renoir" remote="gh" revision="pixelos14" />
+    <project path="vendor/xiaomi/renoir" name="Maitani-Sakura/vendor_xiaomi_renoir" remote="gh" revision="pixelos14" />
     <project path="vendor/xiaomi/sm8350-common" name="RobertGarciaa/vendor_xiaomi_sm8350-common" remote="gh" revision="pixelos14" />
-
-    <!-- Firmware -->
-    <project path="vendor/xiaomi/renoir-firmware" name="chae0218/vendor_xiaomi_renoir-firmware" remote="gl" revision="pixelos14" clone-depth="1" />
     
     <!-- Camera -->
     <project path="vendor/xiaomi/camera" name="RobertGarciaa/vendor_xiaomi_camera-renoir" remote="gh" revision="pixelos14" />
