@@ -16,7 +16,7 @@
     <project path="kernel/xiaomi/sm8350" name="RobertGarciaa/android_kernel_xiaomi_sm8350" remote="gh" revision="pixelos14" />
     
     <!-- Vendor -->
-    <project path="vendor/xiaomi/renoir" name="Maitani-Sakura/vendor_xiaomi_renoir" remote="gh" revision="pixelos14" />
+    <project path="vendor/xiaomi/renoir" name="Maitani-Sakura/vendor_xiaomi_renoir_old" remote="gh" revision="pixelos14" />
     <project path="vendor/xiaomi/sm8350-common" name="RobertGarciaa/vendor_xiaomi_sm8350-common" remote="gh" revision="pixelos14" />
     
     <!-- Camera -->
