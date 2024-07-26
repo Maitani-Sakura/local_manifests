@@ -25,5 +25,7 @@
     <project path="packages/apps/ViPER4AndroidFX" name="RobertGarciaa/packages_apps_ViPER4AndroidFX" remote="gh" revision="v4a" />
 
     <project path="vendor/bcr" name="RobertGarciaa/vendor_bcr_renoir" remote="gh" revision="1" />
+
+    <remove-project name="LineageOS/android_vendor_qcom_opensource_power" />
     
 </manifest>
