@@ -1,31 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
-    <!-- PixelOS14 manifest for renoir -->
-
     <!-- Remotes -->
-    <remote name="gh" fetch="https://github.com" revision="pixelos14" />
-    <remote name="gl" fetch="https://gitlab.com" revision="pixelos14" />
-
+    <remote name="Sakura" fetch="https://github.com/Maitani-Sakura" revision="lineage-21" />
     <!-- Device -->
-    <project path="device/xiaomi/renoir" name="Maitani-Sakura/android_device_xiaomi_renoir_old" remote="gh" revision="pixelos14" />
-    <project path="device/xiaomi/sm8350-common" name="Maitani-Sakura/android_device_xiaomi_sm8350-common_old" remote="gh" revision="pixelos14" />
-    <project path="hardware/xiaomi" name="RobertGarciaa/hardware_xiaomi" remote="gh" revision="pixelos14" />
-
+    <project path="device/xiaomi/renoir" name="android_device_xiaomi_renoir" remote="Sakura" />
+    <project path="device/xiaomi/sm8350-common" name="android_device_xiaomi_sm8350-common" remote="Sakura" />
+    <!-- Hardware -->
+    <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="Sakura" />
     <!-- Kernel -->
-    <project path="kernel/xiaomi/sm8350" name="RobertGarciaa/android_kernel_xiaomi_sm8350" remote="gh" revision="pixelos14" />
-    
+    <project path="kernel/xiaomi/sm8350" name="android_kernel_xiaomi_sm8350" remote="Sakura" />
     <!-- Vendor -->
-    <project path="vendor/xiaomi/renoir" name="Maitani-Sakura/android_vendor_xiaomi_renoir_old" remote="gh" revision="pixelos14" />
-    <project path="vendor/xiaomi/sm8350-common" name="RobertGarciaa/vendor_xiaomi_sm8350-common" remote="gh" revision="pixelos14" />
-    
-    <!-- Camera -->
-    <project path="vendor/xiaomi/camera" name="RobertGarciaa/vendor_xiaomi_camera-renoir" remote="gh" revision="pixelos14" />
-
-    <project path="packages/apps/ViPER4AndroidFX" name="RobertGarciaa/packages_apps_ViPER4AndroidFX" remote="gh" revision="v4a" />
-
-    <project path="vendor/bcr" name="RobertGarciaa/vendor_bcr_renoir" remote="gh" revision="1" />
-
+    <project path="vendor/xiaomi/renoir" name="android_vendor_xiaomi_renoir" remote="Sakura" />
+    <project path="vendor/xiaomi/sm8350-common" name="android_vendor_xiaomi_sm8350-common" remote="Sakura" />
+    <!-- Addition -->
+    <project path="vendor/xiaomi/camera" name="android_vendor_xiaomi_camera" remote="Sakura" />
+    <project path="packages/apps/ViPER4AndroidFX" name="android_packages_apps_ViPER4AndroidFX" remote="Sakura" />
+    <project path="vendor/bcr" name="android_vendor_bcr" remote="Sakura" />
+    <!-- Remove -->
     <remove-project name="LineageOS/android_vendor_qcom_opensource_power" />
-    
 </manifest>
