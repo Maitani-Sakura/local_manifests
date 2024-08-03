@@ -4,7 +4,7 @@
     <remote name="Sakura" fetch="https://github.com/Maitani-Sakura" revision="lineage-21" />
     <!-- Remove -->
     <remove-project name="LineageOS/android_vendor_qcom_opensource_power" />
-    <remove-project name="crdroidandroid/android_frameworks/base" />
+    <remove-project name="crdroidandroid/android_frameworks_base" />
     <!-- Device -->
     <project path="device/xiaomi/renoir" name="android_device_xiaomi_renoir" remote="Sakura" />
     <project path="device/xiaomi/sm8350-common" name="android_device_xiaomi_sm8350-common" remote="Sakura" />
