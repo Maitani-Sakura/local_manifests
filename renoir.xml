@@ -23,6 +23,4 @@
     <project path="vendor/bcr" name="android_vendor_bcr" remote="Sakura" />
     <project path="frameworks/base" name="android_frameworks_base" remote="Sakura" />
     <project path="vendor/lineage" name="android_vendor_crdroid" remote="Sakura" />
-    <project path="vendor/gapps" name="vendor_gapps" revision="upsilon" remote="Sakura-gitlab" />
-    <project path="vendor/gms" name="android_vendor_gms" remote="Sakura-gitlab" />
 </manifest>
