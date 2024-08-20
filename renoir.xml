@@ -4,9 +4,7 @@
     <remote name="Sakura" fetch="https://github.com/Maitani-Sakura" revision="lineage-21" />
     <remote name="Sakura-gitlab" fetch="https://gitlab.com/Maitani-Sakura" revision="lineage-21" />
     <!-- Remove -->
-    <remove-project name="LineageOS/android_vendor_qcom_opensource_power" />
     <remove-project name="crdroidandroid/android_frameworks_base" />
-    <remove-project name="crdroidandroid/android_vendor_crdroid" />
     <!-- Device -->
     <project path="device/xiaomi/renoir" name="android_device_xiaomi_renoir" remote="Sakura" />
     <project path="device/xiaomi/sm8350-common" name="android_device_xiaomi_sm8350-common" remote="Sakura" />
@@ -18,9 +16,5 @@
     <project path="vendor/xiaomi/renoir" name="android_vendor_xiaomi_renoir" remote="Sakura" />
     <project path="vendor/xiaomi/sm8350-common" name="android_vendor_xiaomi_sm8350-common" remote="Sakura" />
     <!-- Addition -->
-    <project path="vendor/xiaomi/camera" name="android_vendor_xiaomi_camera" remote="Sakura" />
-    <project path="packages/apps/ViPER4AndroidFX" name="android_packages_apps_ViPER4AndroidFX" remote="Sakura" />
-    <project path="vendor/bcr" name="android_vendor_bcr" remote="Sakura" />
     <project path="frameworks/base" name="android_frameworks_base" remote="Sakura" />
-    <project path="vendor/lineage" name="android_vendor_crdroid" remote="Sakura" />
 </manifest>
