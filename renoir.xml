@@ -5,6 +5,7 @@
     <remote name="Sakura-gitlab" fetch="https://gitlab.com/Maitani-Sakura" revision="lineage-21" />
     <!-- Remove -->
     <remove-project name="crdroidandroid/android_frameworks_base" />
+    <remove-project name="crdroidandroid/android_vendor_crdroid" />
     <!-- Device -->
     <project path="device/xiaomi/renoir" name="android_device_xiaomi_renoir" remote="Sakura" />
     <project path="device/xiaomi/sm8350-common" name="android_device_xiaomi_sm8350-common" remote="Sakura" />
@@ -17,5 +18,6 @@
     <project path="vendor/xiaomi/sm8350-common" name="android_vendor_xiaomi_sm8350-common" remote="Sakura" />
     <!-- Addition -->
     <project path="frameworks/base" name="android_frameworks_base" remote="Sakura" />
+    <project path="vendor/lineage" name="android_vendor_crdroid" remote="Sakura" />
     <project path="vendor/gms" name="vendor_gms" remote="Sakura-gitlab" />
 </manifest>
