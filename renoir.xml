@@ -17,5 +17,5 @@
     <project path="vendor/xiaomi/sm8350-common" name="android_vendor_xiaomi_sm8350-common" remote="Sakura" />
     <!-- Addition -->
     <project path="frameworks/base" name="android_frameworks_base" remote="Sakura" />
-    <project path="vendor/partner_gms" name="vendor_gms" remote="Sakura-gitlab" />
+    <project path="vendor/gms" name="vendor_gms" remote="Sakura-gitlab" />
 </manifest>
