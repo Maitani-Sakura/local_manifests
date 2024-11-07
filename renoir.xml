@@ -18,7 +18,4 @@
     <project path="vendor/xiaomi/sm8350-common" name="android_vendor_xiaomi_sm8350-common" remote="Sakura" />
     <!-- Addition -->
     <project path="vendor/xiaomi/camera" name="android_vendor_xiaomi_camera" remote="Sakura" />
-    <project path="frameworks/base" name="android_frameworks_base" remote="Sakura" />
-    <project path="vendor/lineage" name="android_vendor_crdroid" remote="Sakura" />
-    <project path="vendor/gms" name="vendor_gms" remote="Sakura-gitlab" />
 </manifest>
