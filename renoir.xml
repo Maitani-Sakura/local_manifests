@@ -3,9 +3,6 @@
     <!-- Remotes -->
     <remote name="Sakura" fetch="https://github.com/Maitani-Sakura" revision="lineage-21" />
     <remote name="Sakura-gitlab" fetch="https://gitlab.com/Maitani-Sakura" revision="lineage-21" />
-    <!-- Remove -->
-    <remove-project name="crdroidandroid/android_frameworks_base" />
-    <remove-project name="crdroidandroid/android_vendor_crdroid" />
     <!-- Device -->
     <project path="device/xiaomi/renoir" name="android_device_xiaomi_renoir" remote="Sakura" />
     <project path="device/xiaomi/sm8350-common" name="android_device_xiaomi_sm8350-common" remote="Sakura" />
