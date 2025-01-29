@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- Device -->
+    <project path="device/lge/joan" name="android_device_lge_joan" remote="Sakura" />
+    <project path="device/lge/l01k" name="android_device_lge_l01k" remote="Sakura" />
+    <project path="device/lge/joan-common" name="android_device_lge_joan-common" remote="Sakura" />
+    <!-- Hardware -->
+    <project path="hardware/lge" name="android_hardware_lge" remote="Sakura" />
+    <!-- Kernel -->
+    <project path="kernel/lge/msm8998" name="android_kernel_lge_msm8998" remote="Sakura" />
+    <!-- Vendor -->
+    <project path="vendor/lge/joan" name="android_vendor_lge_joan" remote="Sakura" />
+    <project path="vendor/lge/l01k" name="android_vendor_lge_l01k" remote="Sakura" />
+    <project path="vendor/lge/joan-common" name="android_vendor_lge_joan-common" remote="Sakura" />
+    <!-- Additional -->
+    <project path="hardware/sony/timekeep" name="android_hardware_sony_timekeep" remote="Sakura" />
+</manifest>
